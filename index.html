@@ -90,7 +90,6 @@
             background-repeat: no-repeat;
         }
 
-        /* Responsive styles for the topbar */
         @media (max-width: 768px) {
             .title {
                 font-size: 1.5em;
@@ -107,7 +106,6 @@
         }
 
         .footer {
-            /* Wenn der Footer fixiert ist und immer am unteren Rand des Viewports erscheinen soll */
             position: fixed;
             bottom: 0;
             left: 0;
@@ -126,31 +124,30 @@
             font-family: "Abel", sans-serif;
             font-size: 20px;
             color: white;
-            margin: 5px 0; /* Für etwas Abstand zwischen den Textzeilen */
-            text-align: center; /* Zentriert den Text, falls notwendig */
+            margin: 5px 0;
+            text-align: center;
         }
 
         .footer-text a {
             text-decoration: none;
             color: white;
-            /* Fügen Sie hier weitere Stile hinzu, falls erforderlich */
         }
 
 
         .main-content {
-            max-width: 1200px; /* Maximale Breite des Inhaltsbereichs */
-            margin: 160px auto 0 auto; /* Zentriert den Inhaltsbereich horizontal und setzt den oberen Abstand */
+            max-width: 1200px;
+            margin: 160px auto 0 auto;
             display: flex;
-            justify-content: space-between; /* Sorgt für Abstand zwischen den Spalten */
-            padding: 0 20px; /* Fügt innen einen Abstand hinzu, damit die Container nicht direkt am Rand sind */
+            justify-content: space-between;
+            padding: 0 20px;
             width: 60%;
         }
 
         .column-container {
             display: flex;
             flex-direction: column;
-            gap: 20px; /* Abstand zwischen den Containern */
-            width: calc(50% - 10px); /* 50% der Breite des Elternelements minus halbem Abstand */
+            gap: 20px;
+            width: calc(50% - 10px);
         }
 
         .info-container {
@@ -162,7 +159,6 @@
         }
 
         .info-container p {
-            /* Mache das es weiter zusammen ist! */
             font-family: "Abel", sans-serif;
             font-size: 18px;
             color: black;
@@ -176,7 +172,7 @@
 
         @media (max-width: 768px) {
             .column-container {
-                width: 100%; /* Bei kleineren Bildschirmen nehmen die Container volle Breite ein */
+                width: 100%;
             }
 
             .main-content {
@@ -185,8 +181,8 @@
             }
 
             .info-container {
-                width: calc(100% - 40px); /* Etwas geringerer Wert für kleinere Bildschirme */
-                margin-bottom: 20px; /* Fügt Abstand am unteren Rand hinzu */
+                width: calc(100% - 40px);
+                margin-bottom: 20px;
             }
         }
 
@@ -205,7 +201,6 @@
 
         <div class="main-content">
             <div class="column-container">
-                <!-- Linke Spalte -->
                 <div class="info-container">
                     <h2>WZ3/MW3 Unlocker</h2>
                     <p>Week: 20.00€</p>
@@ -227,7 +222,6 @@
                 </div>
             </div>
             <div class="column-container">
-                <!-- Rechte Spalte -->
                 <div class="info-container">
                     <h2>WZ3/MW3 Accounts</h2>
                     <p>Normal Account: 5.00€ | Includes 5 Camos, 0 Hour Playtime and (STEAM)</p>
